@@ -8,15 +8,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #000322;
+    --foreground: #58e6ff;
+    font-size: 1.1rem;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: serif;
+  font-family: sans-serif;
 }
 
 @layer utilities {
